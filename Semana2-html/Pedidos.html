@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <Title>Milkmocha</Title>
+        <link rel="icon" type="image/png" href="Images/logo.png">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/styleformulario.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+         <div id="logo">
+             <img src="Images/logo.png" alt="Milkmocha">
+         </div>
+         <nav>
+             <ul>
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="Pasteles.html">Pasteles</a></li>
+               <li><a href="Pedidos.html">Pedidos</a></li>
+               <li><a href="Pastelero.html">Pastelero</a></li>
+               <li><a href="Contacto.html">Contacto</a></li>
+             </ul>
+           </nav>
+        </header>
+        <div class="container" id="formulario">
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <label for="" id="labels">Llena el formulario con los datos correspondientes:</label>
+                    <div id="divform">
+                     <input name="name" id="izq" type="text" required placeholder="Nombre">
+                     <input name="telefono" id="der" type="number" required placeholder="telefono">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="divform">
+                        <input name="correo" id="center" type="email" required placeholder="Correo">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="divform">
+                        <label>Sabor 1</label>
+                        <select name="sabor1" id="izq">
+                            <option></option>
+                            <option>Chocolate</option>
+                            <option>Fresa</option>
+                            <option>Vainilla</option>
+                            <option>Cafe</option>
+                            <option>Limon</option>
+                          </select>
+                          <label>Sabor 2</label>
+                          <select name="sabor2" id="der">
+                            <option></option>
+                            <option>Chocolate</option>
+                            <option>Fresa</option>
+                            <option>Vainilla</option>
+                            <option>Cafe</option>
+                            <option>Limon</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="divform">
+                        <label>Adorno 1</label>
+                        <select name="sabor1" id="izq">
+                            <option></option>
+                            <option>Fresas</option>
+                            <option>Nueces</option>
+                            <option>Coco</option>
+                            <option>Durazno</option>
+                            <option>Cereza</option>
+                          </select>
+                          <label>Adorno 2</label>
+                          <select name="sabor2" id="der">
+                            <option></option>
+                            <option>Fresas</option>
+                            <option>Nueces</option>
+                            <option>Coco</option>
+                            <option>Durazno</option>
+                            <option>Cereza</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div id="divform">
+                        <textarea name="descripcion" rows="4" cols="40">Descripción general del pastel.</textarea>
+                    </div>
+                </div>
+                <button type="submit" id="botonform">
+                    Encargar Pastel
+                  </button>
+            </div>
+        </div>
+    </body> 
+    <footer id="foot">
+        <p id="Footdp">Pasteleria Milkmocha S.A de C.V</p>
+</footer>
+</html>
